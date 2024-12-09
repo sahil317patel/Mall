@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:mall_code",
+ "creation": "2024-12-09 11:19:41.229552",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_lj4g",
+  "amended_from",
+  "mall_code",
+  "mall_name",
+  "status",
+  "column_break_cfcf",
+  "total_area_sqft",
+  "column_break_bvpq",
+  "address",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_lj4g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mall Master",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "mall_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mall Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "mall_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mall Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nNot Active",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cfcf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_area_sqft",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Area (SQ.Ft)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bvpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-09 22:55:07.273041",
+ "modified_by": "Administrator",
+ "module": "mall management",
+ "name": "Mall Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
