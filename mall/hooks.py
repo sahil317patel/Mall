@@ -5,6 +5,7 @@ app_description = "mall management"
 app_email = "sahil@gmail.com"
 app_license = "mit"
 
+
 # Apps
 # ------------------
 
@@ -242,3 +243,24 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+
+{
+        "dt": "Workspace", 
+        "filters": [
+            ["name", "in", ["Mall Admin","Tenant"]]
+        ]
+    },
+
+      { "dt": "Role",
+         "filters": [
+             [
+                 "name",
+                 "in",
+                 [
+                     "Tenant","Mall Manager"
+                 ],
+             ]
+         ],
+      }
+]
