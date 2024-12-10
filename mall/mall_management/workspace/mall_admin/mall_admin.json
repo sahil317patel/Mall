@@ -1,0 +1,36 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Mall Admin\"}}]",
+ "creation": "2024-12-09 20:02:52.677590",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "unhide",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Mall Admin",
+ "links": [],
+ "modified": "2024-12-10 12:44:40.635579",
+ "modified_by": "Administrator",
+ "module": "mall management",
+ "name": "Mall Admin",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Tenant User"
+  },
+  {
+   "role": "Mall Manager"
+  }
+ ],
+ "sequence_id": 40.0,
+ "shortcuts": [],
+ "title": "Mall Admin"
+}

@@ -245,13 +245,6 @@ app_license = "mit"
 
 fixtures = [
 
-{
-        "dt": "Workspace", 
-        "filters": [
-            ["name", "in", ["Mall Admin","Tenant"]]
-        ]
-    },
-
       { "dt": "Role",
          "filters": [
              [
