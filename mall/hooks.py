@@ -251,7 +251,7 @@ fixtures = [
                  "name",
                  "in",
                  [
-                     "Tenant","Mall Manager"
+                     "Tenant User","Mall Manager"
                  ],
              ]
          ],

@@ -43,7 +43,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-12-10 21:09:59.644331",
+ "modified": "2024-12-10 21:21:32.301374",
  "modified_by": "Administrator",
  "module": "mall management",
  "name": "Tenant",
@@ -55,9 +55,6 @@
  "roles": [
   {
    "role": "Tenant User"
-  },
-  {
-   "role": "Mall Manager"
   }
  ],
  "sequence_id": 39.0,
