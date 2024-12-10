@@ -43,7 +43,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-12-10 12:42:35.537209",
+ "modified": "2024-12-10 21:09:59.644331",
  "modified_by": "Administrator",
  "module": "mall management",
  "name": "Tenant",
@@ -54,7 +54,7 @@
  "quick_lists": [],
  "roles": [
   {
-   "role": "Tenant"
+   "role": "Tenant User"
   },
   {
    "role": "Mall Manager"
